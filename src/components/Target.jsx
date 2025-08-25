@@ -10,12 +10,27 @@ const Target = (props) => {
   );
 
   useGSAP(() => {
-    gsap.to(targetRef.current.position, {
+    const tl = gsap.timeline({ repeat: -1, yoyo: true });
+
+    tl.to(targetRef.current.position, {
       y: targetRef.current.position.y + 0.5,
       duration: 1.5,
-      repeat: -1,
-      yoyo: true,
+      ease: "sine.inOut",
     });
+
+    tl.to(targetRef.current.rotation, {
+      y: targetRef.current.rotation.y + Math.PI / 12,
+      duration: 2,
+      ease: "sine.inOut",
+    }, "<");
+
+    tl.to(targetRef.current.scale, {
+      x: 1.7,
+      y: 1.7,
+      z: 1.7,
+      duration: 1.5,
+      ease: "sine.inOut",
+    }, "<");
   });
 
   return (

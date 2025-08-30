@@ -11,8 +11,8 @@ export const navLinks = [
     },
     {
         id: 3,
-        name: 'Work',
-        href: '#work',
+        name: 'Projects',
+        href: '#projects',
     },
     {
         id: 4,
@@ -24,38 +24,37 @@ export const navLinks = [
 export const clientReviews = [
     {
         id: 1,
-        name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
+        name: 'Sophia Bennett',
+        position: 'Marketing Manager at Nova Creative',
         img: 'assets/review1.png',
         review:
-            'Working with Kushagra was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+            'Kushagra did an excellent job redesigning our company website. He made the entire process smooth and was always open to feedback. The final result is clean, modern, and easy to navigate. Our team has received great feedback from clients since the launch.',
     },
     {
         id: 2,
-        name: 'Mark Rogers',
-        position: 'Founder of TechGear Shop',
+        name: 'David Patel',
+        position: 'Founder of SwiftMart Online',
         img: 'assets/review2.png',
         review:
-            'Kushagra’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+            'I was impressed by Kushagra’s ability to quickly understand our requirements and deliver a scalable e-commerce solution. He paid attention to small details that really improved the user experience. Our online sales have already started growing after the new site went live.',
     },
     {
         id: 3,
-        name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
+        name: 'Lisa Thompson',
+        position: 'Project Coordinator at Horizon Tech Solutions',
         img: 'assets/review3.png',
         review:
-            'I can’t say enough good things about Kushagra. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+            'Working with Kushagra was a very positive experience. He managed to take our complex requirements and translate them into a functional product that works seamlessly. Communication was clear and professional throughout the project.',
     },
     {
         id: 4,
-        name: 'Ether Smith',
-        position: 'CEO of BrightStar Enterprises',
+        name: 'Michael Rivera',
+        position: 'CEO of BrightPath Enterprises',
         img: 'assets/review4.png',
         review:
-            'Kushagra was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+            'Kushagra is highly skilled in both frontend and backend development. He delivered our project on time and ensured everything ran smoothly after deployment. I appreciate his professionalism and problem-solving approach. Highly recommend!',
     },
 ];
-
 // export const myProjects = [
 //     {
 //         title: 'Podcastr - AI Podcast Platform',
@@ -272,6 +271,11 @@ export const myProjects = [
                 name: 'Material Design',
                 path: 'assets/materialui.png',
             },
+            {
+                id:3,
+                name: 'Android Studio',
+                path: 'assets/androidStudio.png',
+            },
         ],
     },
     {
@@ -279,7 +283,7 @@ export const myProjects = [
         desc: 'A secure and scalable healthcare web app developed using the MERN stack. It streamlines appointments, role-based access, and integrates Google Calendar for scheduling.',
         subdesc:
             'Built with React.js, Node.js, Express.js, MongoDB, and JWT, HealthSetu improves booking efficiency with Meet integration and enhances patient-doctor workflows.',
-        href: 'https://github.com/ShridharAggrwal/HealthSetu',
+        href: 'https://healthsetulife.netlify.app/',
         texture: '/textures/project/project2.mp4',
         logo: '/assets/project-logo2.png',
         logoStyle: {
@@ -309,6 +313,11 @@ export const myProjects = [
                 name: 'ExpressJS',
                 path: '/assets/Express.svg',
             },
+            {
+                id:5,
+                name: 'Google API',
+                path: '/assets/googleApi.png'
+            }
         ],
     },
     {
@@ -336,7 +345,7 @@ export const myProjects = [
             {
                 id: 2,
                 name: 'Expo',
-                path: 'assets/Expo.svg',
+                path: 'assets/Expo1.svg',
             },
             {
                 id: 3,
@@ -347,6 +356,11 @@ export const myProjects = [
                 id: 4,
                 name : 'TailwindCSS',
                 path: 'assets/tailwindcss.png',
+            },
+            {
+                 id: 3,
+                 name: 'TypeScript',
+                 path: '/assets/typescript.png',
             },
         ],
     },
